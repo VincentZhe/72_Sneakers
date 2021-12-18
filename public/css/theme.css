@@ -128,3 +128,71 @@ h2 {
   width: 25%;
   padding: 0px 8px 16px;
 }
+
+.product {
+  width: auto;
+  max-width: 100%;
+  border-radius: 3px;
+  height: auto;
+  width: 152px;
+  position: relative;
+}
+
+.css-whole {
+  display: flex;
+  flex-direction: column;
+  border-color: grey;
+}
+
+.css-p1 {
+  margin: 16px;
+}
+
+.css-p2 {
+  display: flex;
+  /* -webkit-box-pack: center;
+  justify-content: center; */
+  max-width: 100%;
+  margin: 0px auto;
+}
+
+.css-desc {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--chakra-colors-neutral-100);
+  padding: var(--chakra-space-4);
+  text-align: left;
+}
+
+.css-desc-text {
+  color: var(--chakra-colors-neutral-black);
+  font-weight: var(--chakra-fontWeights-medium);
+  line-height: 1.3;
+  overflow: hidden;
+  padding-left: 20px;
+  width: 200px;
+}
+
+.price-text1 {
+  letter-spacing: 0.004rem;
+  color: var(--chakra-colors-neutral-500);
+  text-transform: capitalize;
+  font-size: var(--chakra-fontSizes-xs);
+  font-family: var(--chakra-fonts-suisseIntlMedium);
+  overflow: hidden;
+  margin-top: 0.25rem;
+  line-height: 1.3;
+  padding-left: 20px;
+}
+
+.price-text2 {
+  letter-spacing: 0.004rem;
+  color: black;
+  text-decoration: 2px solid;
+  font-size: x-large;
+  line-height: 1.3;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding-left: 20px;
+}
