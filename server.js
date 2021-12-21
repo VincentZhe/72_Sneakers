@@ -1,9 +1,8 @@
 const express = require("express");
-
 const exphbs = require("express-handlebars");
 var app = express();
 // var path = require("path");
-// var dataModule = require("./modules/collegeData.js");
+// var dataModule = require("./modules/shoesData.js");
 
 app.use(express.static("public"));
 
@@ -56,6 +55,10 @@ app.get("/", (req, res) => {
 
 app.get("/Shoes", (req, res) => {
   res.render("Shoes");
+});
+
+app.get("/about", (req, res) => {
+  res.render("about");
 });
 
 app.listen(HTTP_PORT, () => {

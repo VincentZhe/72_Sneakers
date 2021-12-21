@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Vujahday+Script&display=swap");
 .navbar.navbar-expand-lg.navbar-light.bg-light {
   background: blue;
   background: linear-gradient(
@@ -17,13 +17,13 @@
 }
 
 .navbar-light a.navbar-brand {
-  font-family: "Great Vibes", cursive;
+  font-family: "Vujahday Script", cursive;
   color: gold;
   text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
 }
 
 .collapse.navbar-collapse a.nav-link {
-  font-family: "Great Vibes", cursive;
+  font-family: "Vujahday Script", cursive;
   color: purple;
 }
 
@@ -41,7 +41,7 @@ div.collapse.navbar-collapse a.nav-link:hover {
 }
 
 body {
-  background: rgb(235, 186, 235);
+  /* background: rgb(235, 186, 235); */
   background: linear-gradient(
     to bottom,
     rgba(54, 54, 54, 0.514),
@@ -73,21 +73,8 @@ input.btn.btn-primary:hover {
   color: rgb(81, 230, 81);
 }
 
-tbody tr:nth-child(odd) {
-  background: rgb(235, 186, 235);
-  background: linear-gradient(
-    to bottom,
-    rgb(163, 116, 240),
-    rgb(201, 201, 207)
-  );
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: auto;
-  height: auto;
-}
-
 h2 {
-  font-family: "Great Vibes", cursive;
+  font-family: "Vujahday Script", cursive;
   color: gold;
   text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
 }
@@ -104,7 +91,7 @@ h2 {
   padding-top: 15px;
   padding-bottom: 15px;
 
-  font-family: "Great Vibes", cursive;
+  font-family: "Vujahday Script", cursive;
   color: yellow;
   text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
 }
@@ -150,8 +137,6 @@ h2 {
 
 .css-p2 {
   display: flex;
-  /* -webkit-box-pack: center;
-  justify-content: center; */
   max-width: 100%;
   margin: 0px auto;
 }
@@ -195,4 +180,38 @@ h2 {
   white-space: nowrap;
   text-overflow: ellipsis;
   padding-left: 20px;
+}
+
+.hot-right-now,
+.new-release {
+  display: inline-block;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin-right: 700px;
+}
+
+.see-all {
+  display: inline-block;
+  color: blueviolet;
+  font-size: larger;
+}
+
+.see-all:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.image-container {
+  display: flex;
+  width: 1000px;
+}
+
+.image-slide {
+  padding: 10px;
+}
+
+.image-single {
+  width: 230px;
 }
