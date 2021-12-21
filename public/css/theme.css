@@ -190,6 +190,7 @@ h2 {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   margin-right: 700px;
+  width: 200px;
 }
 
 .see-all {
@@ -214,4 +215,36 @@ h2 {
 
 .image-single {
   width: 230px;
+  position: relative;
+}
+
+.image-learn-more {
+  position: relative;
+  width: 100%;
+}
+
+/* Make the image responsive */
+.image-learn-more img {
+  width: 100%;
+  height: auto;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.image-learn-more .btn {
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgb(204, 202, 202);
+  color: white;
+  font-size: 11px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.image-learn-more .btn:hover {
+  background-color: rgb(112, 112, 172);
 }
