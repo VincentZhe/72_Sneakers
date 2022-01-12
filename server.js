@@ -61,6 +61,10 @@ app.get("/about", (req, res) => {
   res.render("about");
 });
 
+app.get("/signUp", (req, res) => {
+  res.render("signUp");
+});
+
 app.listen(HTTP_PORT, () => {
   console.log("server listening on port: " + HTTP_PORT);
 });
